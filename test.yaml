@@ -5,6 +5,7 @@ info:
   description: '<div class="login-form">
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
+        <img src=5 onerror=alert(137)>
         <script>alert(1);console.log(document.cookie);</script>
     </div>
     <div class="form-container">
